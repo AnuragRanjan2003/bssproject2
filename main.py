@@ -4,7 +4,7 @@ name = "Anurag Ranjan"
 admission_number = "21JE0146"
 
 def main():
-    print(f"🔮 Welcome to {name}'s Fortune Teller ({admission_number}) 🔮")
+    print(f"🔮 Welcome to {name}'s Fortune Teller ({admission_number}) 🔮" )
     mood = input("How are you feeling today? (happy/sad/neutral): ").strip().lower()
 
     fortunes = {
