@@ -5,7 +5,7 @@ admission_number = "21JE0146"
 
 def main():
     print(f"🔮 Welcome to {name}'s Fortune Teller ({admission_number}) 🔮" )
-    mood = input("How are you feeling today? (happy/sad/neutral): ").strip().lower()
+    mood = input("How are you feeling today? (happy/sad/neutral/stressed): ").strip().lower()
 
     fortunes = {
         "happy": [
@@ -20,6 +20,10 @@ def main():
             "Stay alert—interesting surprises are just around the corner.",
             "Balance is your superpower today.",
         ],
+        "stressed": [
+            f"Breathe in, breathe out—{name} believes in you.",
+            "Even pressure makes diamonds. Keep going!",
+        ]
        
     }
 
